@@ -3,10 +3,14 @@ require File.expand_path('../lib/roasted/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Mikko Kokkonen"]
-  gem.email         = ["mikko@mikian.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["mikko@owlforestry.com"]
+  gem.description   = %q{
+    Roasted is a simple bootstrapping library to install
+    all necessary applications and requirements to freshly
+    installed OS X. Roasted install not only applications
+    but also preferences and licenses if possible.}
+  gem.summary       = %q{Simple application installation and configuration library for OS X}
+  gem.homepage      = "http://www.github.com/owlforestry/roasted"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
@@ -16,4 +20,5 @@ Gem::Specification.new do |gem|
   gem.version       = Roasted::VERSION
   
   gem.add_dependency 'thor'
+  gem.add_dependency 'plist'
 end
