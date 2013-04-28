@@ -4,8 +4,8 @@
 #   bundle "url_to_bundle"
 #   theme "url_to_theme"
 # end
-source "http://dl-origin.macromates.com/TextMate_1.5.10_r1631.zip"
-checksum "4f3f167750b14d6dd1be4e4852f60581a617a47d"
+source "http://archive.textmate.org/TextMate_1.5.11_r1635.zip"
+checksum "e3cdd8baaae8a81679932f48fc3af192ed045b16"
 license :preferences, :key => "OakRegistrationLicenseKey", :name => "OakRegistrationOwner"
 defaults "com.macromates.textmate"
 
